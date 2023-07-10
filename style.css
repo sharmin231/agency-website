@@ -13,4 +13,47 @@
     list-style: none;
     display: flex;
     gap: 10px;
+    font-style: italic;
 }
+.banner-container{
+    height: 100vh;
+    background-image: url(./asset/image/background.jpg), linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-heading{
+    font-size: 45px;
+    color:white;
+}
+.red{
+    color: red;
+}
+.banner-description{
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+
+
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+}
+.btn-gray{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 5px;
+}
+
