@@ -119,3 +119,70 @@
     align-items: center;
     gap: 20px;
 }
+.red-box{
+    width: 800px;
+    height: 150px;
+    background-color: tomato;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+.telephone{
+    width: 70px;
+    height: 70px;
+}
+.phone-icon{
+    display: flex;
+    text-align: center;
+}
+.number{
+    font-size: 10px;
+    margin-top: 20px;
+}
+.last-button{
+    padding: 5px 10px;
+    border: none;
+    background-color: whitesmoke;
+}
+.footer-box{
+    width: 150px;
+    height: 100px;}
+.footer-img{
+    width: 180px;
+    height: 140px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.footer-head{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.footer-description{
+    font-size: 14px;
+}
+.footer-title{
+    font-size: 45px;
+    text-align: center;
+    
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+footer{
+    height: 90vh;
+    background-color: gray;
+    width: 80%;
+    margin: auto;
+   
+}
+.footer-box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
